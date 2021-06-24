@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> control</title>
+    <link rel="stylesheet" href="dooo.css">
+
+</head>
+    
+<body>
+    
+<div class="box">
+        <div class="span" type="">
+              <span  style="color: antiquewhite">محرك 1</span>
+   <div class="slider">
+       
+        <input type="range" min="0" max="180" value="50" id="input">
+    
+      <div class="value" id="value">180</div>
+      
+  <span style="color: antiquewhite">محرك 2</span>
+    <div class="slider2">
+
+             
+
+        <input type="range" min="0" max="180" value="50"id="input2">
+    </div>
+      <div class="value"id="value2">180</div>
+        <span style="color: antiquewhite">محرك 3</span>
+    <div class="slider">
+          
+        
+         
+        <input type="range" min="0" max="180" value="50"id="input3">
+    </div>
+      <div class="value"id="value3">180</div>
+          <span style="color: antiquewhite">محرك 4</span>
+    <div class="slider">
+   
+               
+        
+        <input type="range" min="0" max="180" value="50"id="input4">
+    </div>
+   <div class="value"id="value4">180</div>
+    <span style="color: antiquewhite">محرك 5</span>
+    <div class="slider">
+   
+             
+         <input type="range" min="0" max="180" value="50" id="input5">
+    </div>
+    <div class="value"id="value5">180</div>
+      <span style="color: antiquewhite">محرك 6</span>
+    <div class="slider">
+      
+           
+    
+         <input type="range" min="0" max="180" value="50"id="input6">
+    </div>
+ <div class="value"id="value6">180</div>
+   
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="toggle-btn"
+             onclick="this.classList.toggle('active')">
+               <div class="inner-circle"></div>
+        </div>
+    
+    </div>
+    
+      
+    
+    <button class="button"> حفظ </button>
+    <script>
+   var slider = document.getElementById("input");
+var output = document.getElementById("value");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+var slider2 = document.getElementById("input2");
+var output2 = document.getElementById("value2");
+output2.innerHTML = slider2.value;
+
+slider2.oninput = function() {
+  output2.innerHTML = this.value;
+}
+var slider3 = document.getElementById("input3");
+var output3 = document.getElementById("value3");
+output3.innerHTML = slider3.value;
+
+slider3.oninput = function() {
+  output3.innerHTML = this.value;
+}
+var slider4 = document.getElementById("input4");
+var output4 = document.getElementById("value4");
+output4.innerHTML = slider4.value;
+
+slider4.oninput = function() {
+  output4.innerHTML = this.value;
+}
+var slider5 = document.getElementById("input5");
+var output5 = document.getElementById("value5");
+output5.innerHTML = slider5.value;
+
+slider5.oninput = function() {
+  output5.innerHTML = this.value;
+}
+var slider6 = document.getElementById("input6");
+var output6 = document.getElementById("value6");
+output.innerHTML = slider.value;
+
+slider6.oninput = function() {
+  output6.innerHTML = this.value;
+}
+</script>
+   
+       
+    </body>
+         
+</html>
